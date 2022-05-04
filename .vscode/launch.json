@@ -4,6 +4,23 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    {
+        "type": "scala",
+        "request": "attach",
+        "name": "scala",
+        "buildTarget": "MainTrain",
+        "hostName": "localhost",
+        "port": 5005
+    },
+    {
+        "type": "scala",
+        "request": "launch",
+        "name": "WHat",
+        "mainClass": "MainTrain",
+        "args": [],
+        "jvmOptions": [],
+        "env": {}
+    },
         {
             "type": "scala",
             "name": "Launch",
